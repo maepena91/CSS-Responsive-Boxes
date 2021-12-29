@@ -1,3 +1,113 @@
 body {
   background: peachpuff;
 }
+.container{
+  display: flex;
+  flex-flow: wrap;
+  height: 100vh;
+  
+  
+}
+.a{
+  width: 90%;
+  height: 230px;
+  background-color:crimson;
+  display: flex;
+  min-height: 10em;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.b{
+  width: 30%;
+  height: 10em;
+  background-color: rgb(95, 86, 221);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.c{
+  width: 30%;
+  height: 10em;
+  display: flex;
+  background-color: rgb(150, 163, 128);
+  align-items: center;
+  flex-wrap: wrap;
+}
+.d{
+  width: 30%;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(13, 171, 173);
+}
+.e{
+  width: 30%;
+  height: 20em;
+  display: flex ;
+  background-color: rgb(54, 11, 34);
+  align-items: center;
+  flex-wrap: wrap;
+}
+.f{
+  width: 30%;
+  height: 20em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(213, 216, 42);
+}
+.g{
+  width: 30%;
+  height: 20em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(77, 57, 7);
+}
+.h{
+  width: 80%;
+  height: 300px;
+  display: flex;
+  background-color: rgb(131, 13, 216);
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: auto;
+
+}
+@media  screen and (min-width: 600px) {
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a{
+    width: 90%;
+  height: 230px;
+  }
+  .b{
+    width: 30%;
+  height: 20em;
+  }
+  .c{
+    width: 30%;
+  height: 20em;
+  }
+  .d{
+    height: 20em;
+    width: 30%;
+  }
+  .e{
+height: 20em;
+width: 30%;
+
+  }
+  .f{
+    height: 20em;
+    width: 30%;
+  }
+  .h{
+    height: 20em;
+    width: 80%;
+  }
+}

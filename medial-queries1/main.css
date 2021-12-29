@@ -1,3 +1,52 @@
-body {
-  background: blanchedalmond;
+body{
+ background: blanchedalmond;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+
+}
+.a{
+background-color: blue;
+outline: 2px solid brown;
+}
+
+.b{
+ background-color: burlywood;
+ outline: 2px solid pink;
+ height: 70vh;
+}
+.c{
+ outline: 2px solid grey;
+ height: 70vh;
+}
+
+@media screen and (min-width: 600px){
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+.a{
+  outline: 2px solid brown;
+  width: 100%;
+  height: 20vh;
+  background-color: indigo;
+}
+.b{
+  outline: 2px solid pink;
+  min-height: 50vh;
+  flex-grow: 4;
+  background-color: hotpink;
+  
+}
+.c{
+  outline: 2px solid grey;
+  min-height: 50vh;
+  flex-grow: 2;
+  background-color: lawngreen;
+}
 }
